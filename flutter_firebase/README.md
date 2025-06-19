@@ -1,4 +1,4 @@
-# flutter_app349
+# flutter_firebase
 
 A new Flutter project.
 
