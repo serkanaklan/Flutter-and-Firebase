@@ -80,7 +80,7 @@ class Auth {
       return null;
     }
   }
-} // mehmetcanaydogdu@gmail.com
+}
 
 String _ErrorHandle(FirebaseAuthException e) {
   switch (e.code) {
