@@ -38,6 +38,8 @@ dependencies:
   firebase_auth: ^5.6.0
   google_sign_in: ^6.3.0
   google_sign_in_web: ^0.12.4+4
+  flutter_secure_storage: ^9.2.4
+  flutter_session_jwt: ^1.1.0
 
 dev_dependencies:
   flutter_test:

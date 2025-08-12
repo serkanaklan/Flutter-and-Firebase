@@ -41,11 +41,11 @@ class Auth {
       return AuthModel(isSuccess: false, errorMessage: e.toString());
     }
   }
-
+  // Çıkış Yap
   Future<void> signout() async {
     await _firebaseAuth.signOut();
   }
-
+  
   Future resetPassword({required String email}) async {
     await _firebaseAuth.sendPasswordResetEmail(email: email);
   }
@@ -73,7 +73,7 @@ class Auth {
         accessToken: googleAuth.accessToken,
         idToken: googleAuth.idToken,
       );
-
+      // final token = getTokenId();
       return await FirebaseAuth.instance.signInWithCredential(credential);
     } on Exception catch (e) {
       print('exception->$e');

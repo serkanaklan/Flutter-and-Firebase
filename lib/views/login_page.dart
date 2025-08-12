@@ -56,6 +56,7 @@ class _LoginPageState extends State<LoginPage> {
                       borderRadius: BorderRadius.circular(30),
                     ),
                   ),
+                  
                 ),
                 const SizedBox(height: 20),
                 TextField(
@@ -68,6 +69,7 @@ class _LoginPageState extends State<LoginPage> {
                       borderRadius: BorderRadius.circular(30),
                     ),
                   ),
+                  
                 ),
                 SizedBox(height: 30),
                 ElevatedButton(
